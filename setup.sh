@@ -38,6 +38,10 @@ sudo apt-get install -y nodejs
 # new install heroku i/f
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+# new set git names to mine
+git config --global --add user.name eswedwin
+git config --global --add user.email eswedwin@gmail.com
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
